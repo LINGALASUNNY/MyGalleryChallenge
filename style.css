@@ -1,0 +1,100 @@
+body{
+    padding:0;
+    margin:0;
+}
+.img{
+    width:90px;
+    border-radius:10px;
+}
+.head{
+    margin:auto;
+    width:50%;
+    width:400px;
+    padding-top:10px;
+    text-align: center;
+}
+h4{
+    font-size:14x;
+    color:gray;
+    margin-top:-13px;
+}
+.head-bottom{
+     display:flex;
+     justify-content: space-around;
+     margin-top:5px;
+}
+.head-bottom-1{
+     width:110px;
+     height:65px;
+    background-color:#e5e5e5;
+    border-radius:10px;
+    text-align:center;  
+    margin-top:-12px;
+}
+#text{
+   font-weight:bold;
+}
+#text-2{
+    margin-top:-12px;
+    font-size:13px;
+}
+.img-1,.img-3,.img4{
+    display:flex;
+    justify-content: center;
+}
+#photo1{
+    width:155px;
+}
+#photo2{
+    width:350px;
+}
+#photo3{
+      width:350px;
+}
+#photo5,#photo6{
+    width:170px;
+}
+#photo4{
+    width:150px;
+    height:355px;
+}
+.content{
+    margin-top:10px;
+}
+.content img{
+    padding:8px;
+    border-radius:20px;
+}
+.footer{
+       position:fixed;
+       left:0;
+       bottom:0;
+       width:100%;
+       color:gray;
+       text-align:center;
+       font-size:12px;  
+}  
+#name{
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+@media (max-width:700px){
+    #photo1{
+        width:140px;
+    }
+    #photo2{
+        width:250px;
+    }
+    #photo4{
+        width:100px;
+        height:285px;
+    }
+    #photo3{
+        width:285px;
+    }
+    #photo5,#photo6{
+        width:130px;
+    }
+   
+}
